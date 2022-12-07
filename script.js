@@ -36,3 +36,24 @@ function aufgabe_03() {
         print(n)
     }
 }
+
+
+function aufgabe_04() {
+    let upperBound = parseInt(read())
+    let n = upperBound
+
+    if(n <= 0){
+        for(n = upperBound; n <= 0; n++){
+            print(n)
+        }
+    }
+    else if(n >= 0){
+        for(n = upperBound; n >= 0; n--){
+            print(n,)
+            
+        }
+    }
+   else {
+    print(0)
+   }
+}
