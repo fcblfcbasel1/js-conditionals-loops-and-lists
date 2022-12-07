@@ -7,3 +7,32 @@ function example() {
     }
 }
 
+
+function aufgabe_01() {
+    let upperBound = parseInt(read())
+
+    let n = upperBound
+
+    for(n = 0; n < upperBound; n++) {
+        print(n * 2)
+    }
+}
+
+function aufgabe_02() {
+    let upperBound = parseInt(read())
+    let n = upperBound
+
+    for(n = 0; n < upperBound; n = n + 2){
+        print(n)
+    }
+
+}
+
+function aufgabe_03() {
+    let upperBound = parseInt(read())
+    let n = upperBound
+
+    for(n = 0; n < upperBound / 2; n++){
+        print(n)
+    }
+}
